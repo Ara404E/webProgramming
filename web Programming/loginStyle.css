@@ -1,0 +1,22 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #CDFAD5;
+}
+.login-form{
+    border-radius: 5%;
+    background-color: #BACDDB;
+   
+}
+.container-fluid{
+  padding: 10% 40%;
+}
+
+button{
+    margin: 10px 0 10px 0;
+}
+input{
+    margin: 10px 0px 10px 0;
+}
+

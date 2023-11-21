@@ -1,0 +1,169 @@
+body{
+font-family: 'Arvo', serif;
+background-color: #E3F4F4;
+}
+h3{
+    font-family: 'Bree Serif', serif;
+    padding-top: 10%;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: 'Bree Serif', serif;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+}
+.navbar-brand{
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+}
+#Logo{
+    color:#E64848;
+}
+#Logo:hover{
+    color: #000000;
+}
+.section-heading{
+  font-size:3rem;
+  line-height: 1.5;
+}
+.laughPeop-img{
+    padding-top: 10px;
+}
+
+.paragraph-one{
+    font-size: 1.5rem;
+    color: #413543;
+}
+.paragraph-one span{
+    color: #913175;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0 3px 0 3px;
+}
+#carousel-section{
+    padding: 10% 20%;
+}
+
+.carousel-img{
+    height: 250px;
+   width: 200px;
+}
+.newAdded-item{
+        padding: 50px 0 0 0;
+}
+.food-cards {
+      background-color: #ADD2C9; 
+      width: 60%;
+      max-width: 60%;
+      height: 70px;  
+       padding:5px;
+       margin: 20px 0 20px 0;
+      overflow: hidden;
+      border-radius: 10px;  
+      box-shadow:-1px 0px 8px #413543;
+    }
+      @media (max-width: 768px) {
+    .food-cards {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+.food-cards img{
+    width: 8%; 
+    border-radius:10px ;
+    border: black solid;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.food-cards p {
+    color: #E64848;
+    font-size: 50px; /* Adjust the font size as needed */
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font: bold;
+    text-align: center;
+    margin: -40px 50px 0 0; /*  Increase the negative margin-top to move the text higher */
+}
+@media (min-width: 1200px) {
+    .food-cards p {
+        font-size: 16px; /* Adjust for larger screens */
+    }
+}
+#food-section {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container */
+}
+
+#pricing{    
+  padding:100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+.pricing-column h3{
+  font-size: smaller;
+}
+
+.pricing-column span{
+    
+    font-size: 2.5rem;
+}
+.pricing-column p{
+    font-family: 'Bree Serif', serif; 
+}
+i{
+    margin-right: 5px;
+}
+.end-section{
+  padding: 3% 5%;  
+}
+.end-section i{
+  padding:0 5px 0 5px; 
+}
+.end-section i:hover{
+    color: #E64848;
+    
+}
+.end-section button{
+    color: #E3F4F4;
+    background-color: #E64848;
+    border-color: #E64848;
+    border-width: 2px;
+    padding: 5px;
+    border-left: none;
+     margin-left: -3px;
+     border-top-right-radius:10px; 
+     border-bottom-right-radius:10px 
+}
+
+.join-email {
+    border-right: none;
+     padding: 6px;
+     font-size: 15px;
+     border-width: 1px;
+     border-color: #E64848;
+     background-color: #f3f3f3;
+     color: #000000;
+     border-style: solid;
+     /* box-shadow: -1px 0px 8px #424242 ; */
+
+}
+ .join-email:focus {
+     outline:none;
+}
+.made{
+    text-align: center;
+     font-size:small
+}
+.made:hover{
+    color: #E64848;
+}
