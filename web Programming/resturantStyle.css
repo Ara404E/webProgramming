@@ -12,6 +12,7 @@ h2{
     font-family: 'Bree Serif', serif;
     font-weight: 700;
 }
+
 h5{
     font-size: 1.1rem;
 }
@@ -20,11 +21,24 @@ a{
     text-decoration: none;
     
 }
+#Logo{
+    color:#E64848;
+}
+#Logo:hover{
+    color: #000000;
+}
+.categories-heading{
+     color: #E64848;
+}
 #first-section {
     padding: 7% 20%;
 }
+.navbar-brand{
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+}
 .box1{
-    margin: 0 40px 0 40px;
+    margin: 10px 40px 10px 40px;
     width: 150px;
     height:150px;
     border-radius: 5px;
@@ -37,16 +51,15 @@ a{
     font-size: small;
   
 }
-.navbar-brand{
-    font-family: 'Bree Serif', serif;
-    font-size: 2rem;
+.logo{
+    
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
 }
-#Logo{
-    color:#E64848;
-}
-#Logo:hover{
-    color: #000000;
-}
+
+
 .food-cards {
       background-color: #ADD2C9; 
       width: 60%;
@@ -75,23 +88,33 @@ a{
     justify-content: center;
     align-items: center;
 }
+     @media (max-width: 768px) {
+    .food-cards img {
+        width: 15%;
+        max-width: 15%;
+    }
+}
 .food-cards p {
-    color: #E64848;
-    font-size: 50px; /* Adjust the font size as needed */
+    color: Black;
+    font-size: 20px; /* Adjust the font size as needed */
     font-family: 'Montserrat';
     font-weight: 700;
-    font: bold;
     text-align: center;
     margin: -40px 50px 0 0; /*  Increase the negative margin-top to move the text higher */
 }
-@media (min-width: 1200px) {
+@media (max-width: 768px) {
     .food-cards p {
-        font-size: 16px; /* Adjust for larger screens */
+        font-size: 20px; /* Adjust font size for smaller screens */
+        margin: -20px 30px 0 0; /* Adjust margin as needed */
     }
 }
 #food-section {
     width: 80%; /* Adjust the width as needed */
     margin: 0 auto; /* Center the container */
+}
+#orderBtn{
+    padding: 5px;
+ 
 }
 .end-section{
   padding: 3% 5%;  
@@ -136,4 +159,8 @@ a{
 }
 .made:hover{
     color: #E64848;
+}
+#sides{
+    height: 60px;
+    width: 60px;
 }
