@@ -47,7 +47,52 @@ a{
 #Logo:hover{
     color: #000000;
 }
+.food-cards {
+      background-color: #ADD2C9; 
+      width: 60%;
+      max-width: 60%;
+      height: 70px;  
+       padding:5px;
+       margin: 20px 0 20px 0;
+      overflow: hidden;
+      border-radius: 10px;  
+      box-shadow:-1px 0px 8px #413543;
+    }
+      @media (max-width: 768px) {
+    .food-cards {
+        width: 100%;
+        max-width: 100%;
+    }
+}
 
+.food-cards img{
+    width: 8%; 
+    border-radius:10px ;
+    border: black solid;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.food-cards p {
+    color: #E64848;
+    font-size: 50px; /* Adjust the font size as needed */
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font: bold;
+    text-align: center;
+    margin: -40px 50px 0 0; /*  Increase the negative margin-top to move the text higher */
+}
+@media (min-width: 1200px) {
+    .food-cards p {
+        font-size: 16px; /* Adjust for larger screens */
+    }
+}
+#food-section {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container */
+}
 .end-section{
   padding: 3% 5%;  
 }
