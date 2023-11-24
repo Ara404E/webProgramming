@@ -2,11 +2,11 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    background-color: #CDFAD5;
+    background-color: #BACDDB;
 }
 .login-form{
     border-radius: 5%;
-    background-color: #BACDDB;
+    background-color: #CDFAD5;
    
 }
 .container-fluid{

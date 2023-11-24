@@ -1,0 +1,28 @@
+body{
+font-family: 'Arvo', serif;
+background-color: #E3F4F4;
+}
+h3{
+    font-family: 'Bree Serif', serif;
+    padding-top: 10%;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: 'Bree Serif', serif;
+    font-weight: 700;
+}
+
+
+
+.form-box{
+    background-color: #D4E2D4;
+}
+
+.container-fluid{
+    padding: 10% 20%;
+}
+.form-input{
+    margin: 10px;
+    padding-right: 10px;
+}
