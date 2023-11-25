@@ -66,7 +66,8 @@ a{
       box-shadow:-1px 0px 8px #413543;
     }
       @media (max-width: 768px) {
-    .food-cards {
+
+.food-cards {
         width: 100%;
         max-width: 100%;
     }
