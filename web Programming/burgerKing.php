@@ -52,7 +52,7 @@ while($row = mysqli_fetch_assoc($result)){
             </ul>
         </div>
         <div class="navbar-text" style="color: #ffffff; margin-right: 20px;">
-            balance: $<?php echo $row["balance"];?>
+            balance: <?php echo $row["balance"];?> IQD
         </div>
     </nav>
 <?php }?>
@@ -86,50 +86,168 @@ while($row = mysqli_fetch_assoc($result)){
     <div class="container-fluid" id="food-section">
         <h2 style="margin-left: 10%;" class="categories-heading">Chicken Burgers</h2>
                 <div class="food-cards">
-                    <a href="" class="link-danger">
+                    
                         <img class="img-fluid" src="burgerkingImg/ChickenRoyale.png" style="background-color: aliceblue;" alt="clickable image">
                         <p style="text-align: center;">Chicken Royale</p>
-                        <button style= "margin: -5% 0 20% 10% ;" class="btn btn-outline-light" id="orderBtn">Order</button>
-                    </a> 
+                        <button style="margin: -5% 0 20% 10%;" class="btn btn-outline-light" id="orderBtn" data-bs-toggle="modal" data-bs-target="#orderModal">Order</button>
+
+<div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="orderModalLabel">Hawaiian Pizza</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Price: 5,000 IQD</p>
+       
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="purchase5k.php"><button type="button" class="btn btn-primary">Place Order</button></a>
+      </div>
+    </div>
+  </div>
+</div> 
                 </div>
                 <div class="food-cards">
-                    <a href="" class="link-danger">
+                    
                         <img class="img-fluid" src="burgerkingImg/CrispyChicken.png" style="background-color: aliceblue;" alt="clickable image">
                         <p style="text-align: center;">Chicken Tender Crispy </p>
-                        <button style= "margin: -5% 0 20% 10% ;" class="btn btn-outline-light" id="orderBtn">Order</button>
-                    </a>
+                        <button style="margin: -5% 0 20% 10%;" class="btn btn-outline-light" id="orderBtn" data-bs-toggle="modal" data-bs-target="#orderModal">Order</button>
+
+<div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="orderModalLabel">Hawaiian Pizza</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Price: 5,000 IQD</p>
+       
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="purchase5k.php"><button type="button" class="btn btn-primary">Place Order</button></a>
+      </div>
+    </div>
+  </div>
+</div>
                 </div>
             
 
                 <h2 style="margin-left: 10%;" class="categories-heading">Flamed Grilled Burgers</h2>
                 <div class="food-cards">
-                    <a href="" class="link-danger">
+                    
                         <img class="img-fluid" id="sides" src="burgerkingImg/whopper.png" style="background-color: aliceblue;" alt="clickable image">
                         <p style="text-align: center;">Whopper </p>
-                        <button style= "margin: -5% 0 20% 10% ;" class="btn btn-outline-light" id="orderBtn">Order</button>
-                    </a>    
+                        <button style="margin: -5% 0 20% 10%;" class="btn btn-outline-light" id="orderBtn" data-bs-toggle="modal" data-bs-target="#orderModal">Order</button>
+
+<div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="orderModalLabel">Hawaiian Pizza</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Price: 5,000 IQD</p>
+       
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="purchase5k.php"><button type="button" class="btn btn-primary">Place Order</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+                        
                 </div>
                 <div class="food-cards">
-                    <a href="" class="link-danger">
+                    
                         <img class="img-fluid" id="sides" src="burgerkingImg/doubleWhopper.jpeg" style="background-color: aliceblue;" alt="clickable image">
                         <p style="text-align: center;">Double Whopper</p>
-                        <button style= "margin: -5% 0 20% 10% ;" class="btn btn-outline-light" id="orderBtn">Order</button>
-                    </a>     
+                        <button style="margin: -5% 0 20% 10%;" class="btn btn-outline-light" id="orderBtn" data-bs-toggle="modal" data-bs-target="#orderModal">Order</button>
+
+<div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="orderModalLabel">Hawaiian Pizza</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Price: 5,000 IQD</p>
+       
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="purchase5k.php"><button type="button" class="btn btn-primary">Place Order</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+                         
                 </div>
                 <h2 style="margin-left: 10%;" class="categories-heading">Sides</h2>
                 <div class="food-cards">
-                    <a href="" class="link-danger">
+                    
                         <img class="img-fluid " id="sides" style="background-color: aliceblue;" src="burgerkingImg/KINGNUGGETS.png" alt="">
                         <p style="text-align: center;">Chicken Nuggets</p>
-                        <button style= "margin: -5% 0 20% 10% ;" class="btn btn-outline-light" id="orderBtn">Order</button>
-                    </a>
+                        <button style="margin: -5% 0 20% 10%;" class="btn btn-outline-light" id="orderBtn" data-bs-toggle="modal" data-bs-target="#orderModal">Order</button>
+
+<div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="orderModalLabel">Hawaiian Pizza</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Price: 5,000 IQD</p>
+       
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="purchase5k.php"><button type="button" class="btn btn-primary">Place Order</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+                    
                 </div>
                 <div class="food-cards">
-                    <a href="" class="link-danger">
+                    
                         <img class="img-fluid " id="sides" style="background-color: aliceblue;" src="burgerkingImg/mozzerrall.png" alt="">
                         <p style="text-align: center;">Moezzerla Sticks 6 Pcs</p>
-                        <button style= "margin: -5% 0 20% 10% ;" class="btn btn-outline-light" id="orderBtn">Order</button>
-                    </a>
+                        <button style="margin: -5% 0 20% 10%;" class="btn btn-outline-light" id="orderBtn" data-bs-toggle="modal" data-bs-target="#orderModal">Order</button>
+
+<div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="orderModalLabel">Hawaiian Pizza</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Price: 5,000 IQD</p>
+       
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="purchase5k.php"><button type="button" class="btn btn-primary">Place Order</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+                    
                     
                 </div>
             </div>

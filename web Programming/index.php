@@ -53,7 +53,31 @@ while($row = mysqli_fetch_assoc($result)){
             </ul>
         </div>
         <div class="navbar-text" style="color: #ffffff; margin-right: 20px;">
-            balance: $<?php echo $row["balance"];?>
+            balance: <?php echo $row["balance"];?> IQD
+        </div>
+        <div class="navbar-text" style="color: #ffffff; margin-right: 20px;">
+           <button style="margin: -5% 0 20% 10%;" class="btn btn-outline-light" id="orderBtn" data-bs-toggle="modal" data-bs-target="#orderModal">Add 10,000 IQD</button>
+
+<div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="orderModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p style="color:black;">Do you want to add 10,000 IQD?</p>
+       
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="add10k.php"><button type="button" class="btn btn-primary">Add</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
         </div>
     </nav>
 <?php }?>
